@@ -1,1 +1,1 @@
-console.log("Printtaan konsolissa")
+console.log("I'm printing to console!")
