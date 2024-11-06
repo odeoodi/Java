@@ -1,16 +1,16 @@
-const answer = confirm('Should I calculate the squareroot?')
+const answer = confirm('Should I calculate the squareroot?');
 
 if (answer === true) {
-  const number = prompt('Give a number for me to calculate :)')
+  const number = prompt('Give a number for me to calculate :)');
   if (number > 0) {
-    let root = Math.sqrt(parseInt(number))
-    document.querySelector('#calculated').innerHTML = `${root}`
+    let root = Math.sqrt(parseInt(number));
+    document.querySelector('#calculated').innerHTML = `${root}`;
+  } else {
+    document.querySelector(
+        '#calculated').innerHTML = 'Negative squareroot is not possible';
   }
-  else {
-    document.querySelector('#calculated').innerHTML = 'Negative squareroot is not possible'
-  }
-}
-else {
-  document.querySelector('#calculated').innerHTML = 'The squareroot is not calculated'
+} else {
+  document.querySelector(
+      '#calculated').innerHTML = 'The squareroot is not calculated';
 }
 

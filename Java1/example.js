@@ -1,8 +1,5 @@
+const nimi = prompt('Anna nimi');
 
+let nimenSisalto = `Hei, ${nimi}!`;
 
-const nimi = prompt("Anna nimi")
-
-
-let nimenSisalto = `Hei, ${nimi}!`
-
-document.querySelector("#nimi").innerHTML = nimenSisalto
+document.querySelector('#nimi').innerHTML = nimenSisalto;
