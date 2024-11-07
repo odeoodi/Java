@@ -1,3 +1,5 @@
+'use strict'
+
 const answer = confirm('Should I calculate the squareroot?');
 
 if (answer === true) {
